@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import 'functions/file_selector.dart';
+import 'functions/get_network_image.dart';
 
 void main() {
   runApp(MyApp());
@@ -43,6 +44,7 @@ class MyHomePage extends StatelessWidget {
     // リストビューに表示するアイテム
     final listViewItems = [
       _listItem('file_selector', FileSelector()),
+      _listItem('get_network_image', GetNetworkImage()),
     ];
 
     return Scaffold(
