@@ -135,6 +135,15 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "0.12.10"
+  menubar:
+    dependency: "direct main"
+    description:
+      path: "plugins/menubar"
+      ref: HEAD
+      resolved-ref: "7812516a5c1fc8ef379e244106953a2b534432b9"
+      url: "https://github.com/google/flutter-desktop-embedding.git"
+    source: git
+    version: "0.1.0"
   meta:
     dependency: transitive
     description:

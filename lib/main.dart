@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_desktop_samples_mac/functions/menu_bar.dart';
 
 import 'functions/file_selector.dart';
 import 'functions/get_network_image.dart';
@@ -45,6 +46,7 @@ class MyHomePage extends StatelessWidget {
     final listViewItems = [
       _listItem('file_selector', FileSelector()),
       _listItem('get_network_image', GetNetworkImage()),
+      _listItem('menu_bar', MenuBar()),
     ];
 
     return Scaffold(
